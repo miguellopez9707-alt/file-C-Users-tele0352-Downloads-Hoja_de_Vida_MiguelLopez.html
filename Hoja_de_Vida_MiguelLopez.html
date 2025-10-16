@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida - Miguel Santiago López Vargas</title>
+  <style>
+    :root {
+      --azul-oscuro: #002855;
+      --gris-suave: #f5f6fa;
+      --gris-texto: #333;
+      --gris-secundario: #555;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: var(--gris-suave);
+      color: var(--gris-texto);
+      margin: 0;
+      padding: 0;
+    }
+
+    .cv-container {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      max-width: 1100px;
+      margin: 50px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Columna lateral */
+    .sidebar {
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 40px 30px;
+    }
+
+    .sidebar h2 {
+      color: white;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 8px;
+      margin-top: 30px;
+      font-size: 17px;
+      letter-spacing: 0.5px;
+    }
+
+    .sidebar p, .sidebar li {
+      color: #e2e6f0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 6px;
+    }
+
+    /* Encabezado principal */
+    .main {
+      padding: 40px 50px;
+    }
+
+    .header {
+      border-bottom: 3px solid var(--azul-oscuro);
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: var(--azul-oscuro);
+      font-size: 28px;
+      letter-spacing: 0.5px;
+    }
+
+    .header p {
+      margin: 4px 0;
+      color: var(--gris-secundario);
+      font-size: 15px;
+    }
+
+    h3 {
+      color: var(--azul-oscuro);
+      font-size: 16px;
+      margin-bottom: 5px;
+      margin-top: 25px;
+    }
+
+    h2.section-title {
+      color: var(--azul-oscuro);
+      font-size: 19px;
+      border-bottom: 2px solid var(--azul-oscuro);
+      padding-bottom: 5px;
+      margin-bottom: 12px;
+      margin-top: 35px;
+    }
+
+    ul {
+      margin-top: 5px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .logros {
+      font-style: italic;
+      color: #444;
+      margin-top: -4px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #dce3ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 850px) {
+      .cv-container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        border-bottom: 5px solid var(--azul-oscuro);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <aside class="sidebar">
+      <h2>Contacto</h2>
+      <p>Bogotá, Colombia<br>
+      +57 320 875 7393<br>
+      <a href="mailto:miguellopez9707@gmail.com">miguellopez9707@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/miguelsantiagolopezvargas" target="_blank">
+        linkedin.com/in/miguelsantiagolopezvargas
+      </a></p>
+
+      <h2>Competencias</h2>
+      <ul>
+        <li>Análisis comercial y financiero</li>
+        <li>Planeación estratégica</li>
+        <li>Gestión de clientes clave y CRM</li>
+        <li>Control de presupuestos e inventarios</li>
+        <li>Negociación y liderazgo</li>
+        <li>Toma de decisiones basada en datos</li>
+      </ul>
+
+      <h2>Herramientas</h2>
+      <ul>
+        <li>Excel Avanzado</li>
+        <li>Power BI</li>
+        <li>SAP</li>
+        <li>SIESA</li>
+        <li>BSoft</li>
+        <li>Office 365</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español – Nativo</li>
+        <li>Inglés – B1</li>
+      </ul>
+
+      <h2>Referencias</h2>
+      <p>
+        Jenny Paola Riaño – Ejecutiva Relaciones Corporativas – 311 847 6552<br><br>
+        Milena Rodríguez – Visitadora Médica – 310 208 8006<br><br>
+        José Miguel López – Supervisor de Operaciones – 313 335 4798<br><br>
+        Alonso Ussa López – Supervisor SST – 313 886 7159
+      </p>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <h1>MIGUEL SANTIAGO LÓPEZ VARGAS</h1>
+        <p>Administrador de Empresas | Análisis Comercial y Gestión Estratégica</p>
+      </div>
+
+      <section>
+        <h2 class="section-title">Perfil Profesional</h2>
+        <p>
+          Administrador de Empresas y estudiante de la Especialización en Internacionalización de Organizaciones en la Universidad de La Salle.
+          Con más de cinco años de experiencia en análisis de datos comerciales, estrategias de ventas, manejo de clientes clave y control administrativo
+          en empresas del sector farmacéutico, de consumo masivo y asegurador. 
+          Capaz de transformar datos complejos en decisiones estratégicas, con enfoque en resultados, liderazgo y eficiencia operativa.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">Experiencia Laboral</h2>
+
+        <h3>SensoLife – Coaspharma | Asistente Comercial</h3>
+        <p><strong>Octubre 2023 – Actualidad</strong></p>
+        <ul>
+          <li>Gestión integral de inventarios y control de stock en el canal institucional.</li>
+          <li>Desarrollo y seguimiento de estrategias comerciales y ventas nacionales.</li>
+          <li>Administración de contratos comerciales y acuerdos con clientes clave.</li>
+          <li>Control de facturación, descuentos, notas crédito y pagos.</li>
+          <li>Diseño de presupuestos, proyecciones y análisis financiero.</li>
+        </ul>
+        <p class="logros">Logros: Reducción del 40% en tiempos de cálculo de comisiones y 15% en diferencias de inventario.</p>
+
+        <h3>Colanta | Auxiliar de Información</h3>
+        <p><strong>Octubre 2021 – Octubre 2023</strong></p>
+        <ul>
+          <li>Elaboración de informes de ventas e indicadores para canales TAT e institucionales.</li>
+          <li>Manejo del sistema SIESA, creación de clientes y liquidación de comisiones.</li>
+        </ul>
+        <p class="logros">Logros: Centralización de la información comercial y mejora de reportes gerenciales.</p>
+
+        <h3>PepsiCo | Practicante de Sales Strategy</h3>
+        <p><strong>Marzo 2020 – Septiembre 2020</strong></p>
+        <ul>
+          <li>Soporte en la gestión de clientes y desarrollo de estrategias comerciales para distribuidores.</li>
+          <li>Automatización de tareas internas y creación de reportes estratégicos.</li>
+        </ul>
+        <p class="logros">Logro: Creación de herramientas que aumentaron la efectividad de los distribuidores.</p>
+
+        <h3>SURA | Practicante de Expedición</h3>
+        <p><strong>Diciembre 2018 – Junio 2019</strong></p>
+        <ul>
+          <li>Manejo de plataformas aseguradoras, atención al cliente y coordinación de practicantes.</li>
+          <li>Desarrollo de iniciativas de retención y fidelización.</li>
+        </ul>
+        <p class="logros">Logro: Implementación de estrategias de recuperación de clientes perdidos.</p>
+
+        <h3>Distribuidora Familiar Cremhelado | Administrador General</h3>
+        <p><strong>2016 – 2021</strong></p>
+        <ul>
+          <li>Administración integral del negocio: procesos comerciales, logísticos y financieros.</li>
+          <li>Gestión de inventarios, facturación y coordinación de personal y proveedores.</li>
+        </ul>
+        <p class="logros">Logros: Optimización de procesos y consolidación del negocio familiar durante cinco años.</p>
+      </section>
+
+      <section>
+        <h2 class="section-title">Educación</h2>
+        <ul>
+          <li><strong>Especialización en Internacionalización de Organizaciones</strong> – Universidad de La Salle (En curso desde agosto de 2025)</li>
+          <li><strong>Diplomado en Marketing Digital – Estrategia e Implementación</strong> – Fundación Universitaria Cafam (2021)</li>
+          <li><strong>Administrador de Empresas</strong> – Fundación Universitaria Cafam (2016 – 2021)</li>
+          <li><strong>Tecnólogo en Gestión Empresarial</strong> – Fundación Universitaria Cafam (2016 – 2019)</li>
+          <li><strong>Bachiller Académico</strong> – Colegio Estrada María Auxiliadora (2015)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
